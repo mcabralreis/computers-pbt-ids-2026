@@ -11,3 +11,7 @@ an unintended preprint.
 
 After publication, this file should be updated with the final bibliographic
 citation and article DOI.
+
+Reproducibility archive DOI: [10.5281/zenodo.23640914](https://doi.org/10.5281/zenodo.23640914)
+
+Source repository: https://github.com/mcabralreis/computers-pbt-ids-2026

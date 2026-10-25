@@ -28,3 +28,7 @@ The final PF4-A1 evidence ZIP contains committed scientific records and audit/pr
 ## Derived outputs
 
 The repository contains derived aggregate CSVs and figures used to support the manuscript. These do not replace the original third-party datasets and are intended for claim verification and analysis reproduction.
+
+## Archived reproducibility record
+
+The version-specific reproducibility archive for this study is reserved at Zenodo under DOI [10.5281/zenodo.23640914](https://doi.org/10.5281/zenodo.23640914). The source repository is available at https://github.com/mcabralreis/computers-pbt-ids-2026. The archive contains the sealed PF4-A1 evidence and derived analysis packages, but not the third-party CICIoT2023 or TON_IoT source datasets.

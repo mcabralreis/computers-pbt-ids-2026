@@ -4,7 +4,7 @@
   "name": "Computers PBT IDS 2026 Reproducibility Package",
   "version": "1.0.0",
   "datePublished": "2026-10-25",
-  "description": "Code, evidence metadata, derived results, and manuscript materials for property-based assurance of predictive and SHAP explanation robustness in IoT intrusion detection.",
+  "description": "Code, evidence metadata, and derived results for property-based assurance of predictive and SHAP explanation robustness in IoT intrusion detection. Archived release DOI: 10.5281/zenodo.23640914.",
   "author": [
     {
       "@type": "Person",
@@ -17,6 +17,22 @@
       }
     }
   ],
-  "programmingLanguage": ["Python", "PowerShell", "LaTeX"],
-  "keywords": ["intrusion detection", "IoT", "SHAP", "property-based testing", "metamorphic testing", "robustness", "reproducibility"]
+  "programmingLanguage": [
+    "Python",
+    "PowerShell",
+    "LaTeX"
+  ],
+  "keywords": [
+    "intrusion detection",
+    "IoT",
+    "SHAP",
+    "property-based testing",
+    "metamorphic testing",
+    "robustness",
+    "reproducibility"
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.23640914",
+  "codeRepository": "https://github.com/mcabralreis/computers-pbt-ids-2026",
+  "url": "https://doi.org/10.5281/zenodo.23640914",
+  "license": "https://opensource.org/license/mit"
 }

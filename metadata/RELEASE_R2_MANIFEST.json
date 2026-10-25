@@ -8,5 +8,8 @@
   "full_manuscript_included": false,
   "PF4_final_evidence_sha256": "3878071e423383dfaa8c1d4a7ebf558681618137f6badfd8edbc913110accebe",
   "PF5_executed": false,
-  "RF_executed_in_PF4": false
+  "RF_executed_in_PF4": false,
+  "version": "1.0.0",
+  "zenodo_doi": "10.5281/zenodo.23640914",
+  "github_repository": "https://github.com/mcabralreis/computers-pbt-ids-2026"
 }

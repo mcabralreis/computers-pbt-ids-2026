@@ -1,18 +1,14 @@
-# Expected Archival Files
+# Expected Archival Files - Zenodo v1.0.0
 
-The DOI-bearing archival record should contain the following files (or byte-identical equivalents).
+The Zenodo record identified by DOI `10.5281/zenodo.23640914` should contain the following release artifacts:
 
 | File | Purpose |
 |---|---|
-| `Computers_PBT_IDS_REPOSITORY_R1.zip` | Lightweight repository snapshot: code, analysis, derived results, manuscript, metadata |
-| `R7_D35_PF4_PRIMARY_P1_A1_G3_R3_FINAL_COMPLETE_evidence.zip` | Final immutable PF4-A1 ordinal-level scientific evidence and audit/source material |
-| `PF4_A1_ANALYSIS_R1_PACKAGE.zip` | Long-form descriptive analysis tables extracted from final evidence |
-| `PF4_A1_ANALYSIS_R2_PACKAGE.zip` | Seed-aware contrasts and intensity/ablation analysis |
-| `PF4_A1_ANALYSIS_R3_PACKAGE.zip` | Manuscript-grade analysis synthesis and figures |
-| `Computers_PBT_IDS_MANUSCRIPT_R7.zip` | Reviewer-hardened manuscript source package |
-| `Computers_PBT_IDS_MANUSCRIPT_R7.pdf` | Compiled R7 manuscript preview |
-| `Computers_PBT_IDS_R7_D35_PF4_PRIMARY_P1_45case_atomic_campaign.zip` | Original frozen PF4 primary source package before PF4-A1 amendment |
-| `SHA256SUMS.txt` | Checksums for every uploaded archival file |
-| `ZENODO_DEPOSIT_README.md` | Deposit-level description and file map |
+| `Computers_PBT_IDS_REPOSITORY_v1.0.0.zip` | DOI-bearing lightweight repository snapshot |
+| `R7_D35_PF4_PRIMARY_P1_A1_G3_R3_FINAL_COMPLETE_evidence.zip` | Final immutable PF4-A1 ordinal-level evidence, audit material, and frozen source |
+| `PF4_A1_ANALYSIS_R1_PACKAGE.zip` | Descriptive full-evidence analysis |
+| `PF4_A1_ANALYSIS_R2_PACKAGE.zip` | Seed-aware contrasts, intensity, and ablation analysis |
+| `PF4_A1_ANALYSIS_R3_PACKAGE.zip` | Manuscript-grade synthesis and figures |
+| `ZENODO_UPLOAD_SHA256SUMS_v1.0.0.txt` | Integrity checksums for the five payload files above |
 
-The third-party CICIoT2023 and TON_IoT source datasets are intentionally excluded.
+The full manuscript is intentionally excluded from the public reproducibility record before journal submission/publication, to avoid creating an unintended preprint. Third-party CICIoT2023 and TON_IoT source datasets are also excluded.

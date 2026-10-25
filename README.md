@@ -1,5 +1,8 @@
 # Computers PBT IDS 2026 — Reproducibility Package
 
+**Archived release DOI:** [10.5281/zenodo.23640914](https://doi.org/10.5281/zenodo.23640914)  
+**Source repository:** [https://github.com/mcabralreis/computers-pbt-ids-2026](https://github.com/mcabralreis/computers-pbt-ids-2026)
+
 This repository accompanies the manuscript:
 
 > **Beyond Accuracy in IoT Intrusion Detection: Property-Based Assurance of Predictive and SHAP Explanation Robustness**
@@ -110,7 +113,7 @@ tables and figures required for reproduction remain under `results/`.
 
 ## Citation
 
-A DOI-free citation file is provided in `CITATION.cff`. After archival deposition, update the DOI/repository fields before creating the final public release.
+The archived reproducibility release is identified by DOI [10.5281/zenodo.23640914](https://doi.org/10.5281/zenodo.23640914). The source repository is [https://github.com/mcabralreis/computers-pbt-ids-2026](https://github.com/mcabralreis/computers-pbt-ids-2026). `CITATION.cff` contains the machine-readable citation metadata.
 
 ## Integrity
 

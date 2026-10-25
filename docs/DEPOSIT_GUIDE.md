@@ -20,7 +20,7 @@ Upload the files listed in `evidence/EXPECTED_ARCHIVAL_FILES.md`. The prepared u
 
 ## DOI strategy
 
-If you want the DOI printed inside files before publication, Zenodo supports reserving a DOI for a manual deposit. For the GitHub integration workflow, Zenodo documentation states that a DOI cannot be pre-reserved before the GitHub release; use a manual upload if pre-reservation is needed.
+The version-specific Zenodo DOI has been reserved as `10.5281/zenodo.23640914` and is now bound into the v1.0.0 repository metadata. The GitHub source repository is `https://github.com/mcabralreis/computers-pbt-ids-2026`. Publish the Zenodo record only after the DOI-bearing GitHub release content and Zenodo payload are aligned.
 
 ## Metadata
 

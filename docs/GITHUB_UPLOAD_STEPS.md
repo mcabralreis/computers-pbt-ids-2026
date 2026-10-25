@@ -1,43 +1,13 @@
-# GitHub Upload Steps (Windows / PowerShell)
+# GitHub finalization - v1.0.0
 
-The prepared repository ZIP is intentionally small (~1.3 MB) and excludes the 314 MB final evidence archive.
+Repository: https://github.com/mcabralreis/computers-pbt-ids-2026
 
-## 1. Unpack
+The repository already exists. Update it with the DOI-bearing files from `Computers_PBT_IDS_REPOSITORY_v1.0.0.zip`. In particular, replace `CITATION.cff`, `README.md`, `metadata/codemeta.json`, `docs/DATA_AVAILABILITY.md`, and release metadata.
 
-```powershell
-Expand-Archive .\Computers_PBT_IDS_REPOSITORY_R1.zip -DestinationPath .\repo_unpack
-cd .\repo_unpack\Computers_PBT_IDS_REPRODUCIBILITY_R1
-```
+After the DOI-bearing content is committed:
 
-## 2. Review the license decision
-
-Before making the repository public, replace `LICENSE_SELECTION_REQUIRED.md` with the chosen license file(s) and update `CITATION.cff` if the selected license is to be declared there.
-
-## 3. Initialize Git
-
-```powershell
-git init
-git add .
-git commit -m "Initial reproducibility release v1.0.0"
-git branch -M main
-```
-
-## 4. Connect the empty public repository you create on GitHub
-
-```powershell
-git remote add origin https://github.com/<USER_OR_ORG>/<REPOSITORY>.git
-git push -u origin main
-```
-
-## 5. Tag the release
-
-```powershell
-git tag -a v1.0.0 -m "Reproducibility package v1.0.0"
-git push origin v1.0.0
-```
-
-Then create the corresponding GitHub Release `v1.0.0`.
-
-## Important
-
-Do not add `R7_D35_PF4_PRIMARY_P1_A1_G3_R3_FINAL_COMPLETE_evidence.zip` to normal Git history. It is >100 MiB and belongs in the DOI-bearing archival upload set.
+1. Verify the main branch shows DOI `10.5281/zenodo.23640914` and repository URL correctly.
+2. Run `py .\scripts\verify_release.py` from a local clone/extracted release.
+3. Create tag/release `v1.0.0`.
+4. Use release title: `v1.0.0 - Reproducibility release`.
+5. Do not upload the ~314 MB final evidence ZIP to ordinary Git history; it belongs in Zenodo.

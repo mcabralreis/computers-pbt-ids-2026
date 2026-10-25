@@ -1,23 +1,12 @@
-# Zenodo deposit steps
+# Zenodo finalization steps - reserved DOI 10.5281/zenodo.23640914
 
-1. Log in to Zenodo.
-2. Click `+` -> `New upload`.
-3. Upload the prepared repository snapshot and the archival evidence/analysis files.
-4. DOI:
-   - answer `No` to "Do you already have a DOI for this upload?"
-   - click `Get a DOI now!`.
-5. Resource type: `Software`.
-6. Copy the title, creator, description, and keywords from
-   `metadata/ZENODO_FORM_VALUES.md`.
-7. Licenses: add BOTH:
-   - MIT License
-   - Creative Commons Attribution 4.0 International (CC BY 4.0)
-8. Set files to public/open.
-9. Add the GitHub repository URL as a related identifier.
-10. Click `Save draft`.
-11. Do NOT publish yet.
-12. Copy the reserved DOI into `CITATION.cff`, `README.md`, `codemeta.json`,
-    and the manuscript reproducibility statement.
-13. Build the DOI-bearing final release and replace the draft files if needed.
-14. Preview and verify metadata/files/checksums.
-15. Publish only after the DOI-bearing package and manuscript wording agree.
+1. Keep the existing Zenodo draft; do not create a second record.
+2. Reserved DOI: `10.5281/zenodo.23640914`.
+3. Replace the earlier repository snapshot with `Computers_PBT_IDS_REPOSITORY_v1.0.0.zip`.
+4. Keep/upload the four scientific archives listed in `evidence/EXPECTED_ARCHIVAL_FILES.md`.
+5. Upload `ZENODO_UPLOAD_SHA256SUMS_v1.0.0.txt`.
+6. Confirm Resource type = Software, version = 1.0.0, Open access.
+7. Confirm both licenses: MIT and CC BY 4.0.
+8. Confirm GitHub related identifier: https://github.com/mcabralreis/computers-pbt-ids-2026.
+9. Save draft and inspect the file list and metadata.
+10. Publish only after GitHub has been updated to the same DOI-bearing release content.
