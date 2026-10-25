@@ -1,0 +1,22 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Computers PBT IDS 2026 Reproducibility Package",
+  "version": "1.0.0",
+  "datePublished": "2026-10-25",
+  "description": "Code, evidence metadata, derived results, and manuscript materials for property-based assurance of predictive and SHAP explanation robustness in IoT intrusion detection.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Manuel José Cabral dos Santos",
+      "familyName": "Reis",
+      "@id": "https://orcid.org/0000-0002-8872-5721",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Trás-os-Montes e Alto Douro (UTAD)"
+      }
+    }
+  ],
+  "programmingLanguage": ["Python", "PowerShell", "LaTeX"],
+  "keywords": ["intrusion detection", "IoT", "SHAP", "property-based testing", "metamorphic testing", "robustness", "reproducibility"]
+}

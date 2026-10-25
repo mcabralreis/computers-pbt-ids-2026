@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the archived release and the associated article."
+title: "Computers PBT IDS 2026: Reproducibility Package"
+type: software
+authors:
+  - family-names: "Reis"
+    given-names: "Manuel José Cabral dos Santos"
+    orcid: "https://orcid.org/0000-0002-8872-5721"
+    affiliation: "University of Trás-os-Montes e Alto Douro (UTAD)"
+version: "1.0.0"
+date-released: "2026-10-25"
+keywords:
+  - intrusion detection
+  - Internet of Things
+  - property-based testing
+  - metamorphic testing
+  - SHAP
+  - explainable artificial intelligence
+  - reproducibility

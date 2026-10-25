@@ -1,0 +1,53 @@
+{
+  "gate": "C5K-P2-R4-R6-P4-R7-D32",
+  "version": "D32-1.0",
+  "status": "SCIENTIFIC_TARGET_AND_METRICS_CONTRACT_DISAMBIGUATION_OFFLINE_VERIFIED_WINDOWS_READONLY_PREFLIGHT_PENDING",
+  "authority": "Interpretation of frozen C5B-R5/C5K-P1-R6 execution binding and original R5, not an amendment to them",
+  "scope": "45 non-RF cases; CIC34, TON10, TON2 x LIN_SGD_LOGISTIC, HGB, MLP x seeds 11/23/37/53/71",
+  "scope_excluded": ["RF separate native SHAP gate", "unexecuted primary PF4", "primary PF5"],
+  "explanation_target": {
+    "general": "SHAP explanations are in the assigned explainer's actual output space. When there is an explicit class axis, select the clean historical predicted class index, hold the same coordinate for all PF1 perturbations. Do not rebind on prediction flip.",
+    "TON2_LIN_HGB": "If the assigned explainer truly exposes only one native scalar, retain native coordinate 0 regardless of predicted binary class; preserve historical score separately.",
+    "TON2_MLP": {
+      "actual_R5_gradient_explainer_output": "two raw model logits, tensor [n,153,2]",
+      "selection": "fixed clean class coordinate of the raw two-logit axis",
+      "separate_historical_score_adapter": "historical_positive_class_score, 1-D softmax(raw_logits)[:,1]",
+      "historical_score_is_shap_target": false,
+      "prohibited_substitution": "Never label raw-logit SHAP as historical positive-probability SHAP, sum or select raw-logit SHAP as a probability explanation, or silently wrap the model."
+    }
+  },
+  "PF4": {
+    "cohort": "xai",
+    "background": "256 deterministic train-only rows, TON10 and TON2 dataset background shared",
+    "pairing": "clean and one representation-effective deterministic PF1 candidate per intensity 0.01,0.05,0.10 and draw 0; NA stays NA",
+    "original_source_feature_aggregation_signed": "sum encoded SHAP within same source feature",
+    "original_source_feature_magnitude": "sum absolute encoded SHAP within same source feature",
+    "stability": ["top-k Jaccard @5/@10", "Spearman of source-feature magnitudes, ties average", "normalized L1 between unit-L1 source-feature magnitudes; both zero 0, exactly one zero 1"],
+    "primary_fidelity": "absolute local additivity residual in actual native explainer output space only where supported; no threshold; GradientExplainer N/A_FROZEN_NO_SUBSTITUTION",
+    "secondary_fidelity": "top-k source feature ablation score drop @5/@10 through frozen preprocessing missing/baseline path, measured with CLEAN HISTORICAL PREDICTED CLASS SCORE, independent of the SHAP native target, no threshold",
+    "TON2_historical_score_clean_predicted_class": "For historical binary p1 from the sealed adapter, clean class 1 uses p1 and clean class 0 uses 1-p1; verify this against frozen helper for primary runner, do not confuse with raw-logit score."
+  },
+  "PF5": {
+    "prediction_stable": "exact class unchanged clean versus same PF1 perturbation",
+    "Jaccard": "@10 from PF4",
+    "joint_primary": "prediction_stable AND Jaccard@10 <=0.50",
+    "joint_secondary": "prediction_stable AND Jaccard@10 <=0.80",
+    "source": "C5B-R5 execution threshold precedence, not illustrative C3A example"
+  },
+  "required_next_gates_before_primary_execution": [
+    "Confirm exact mapping from 46 or 153 encoded columns to frozen original source features and validate magnitude aggregation",
+    "Verify source-feature topk tie handling without introducing a new unrecorded scientific rule",
+    "Exercise ablation through the frozen preprocessing missing/baseline path and clean historical predicted-class adapter including TON2 class 0 complement",
+    "Pilot integrated metric engine on sealed checkpoints, maintaining original D31 partial-failure record distinct from exploratory R1/R2",
+    "Exercise at least one real recovery-safe multi-seed checkpoint runner and independently audit it",
+    "Explicitly approve separate primary 45-case execution only after complete metric/runner preflight"
+  ],
+  "provenance_and_limitations": [
+    "D24 is static 45-case preflight, not execution",
+    "D31 original remains TON10=2 committed, TON2 failed staging intact",
+    "D31-R1/R2 is separate raw-two-logit exploratory pilot, never retroactive D31 PASS",
+    "First two TON canonical XAI positions can encode to identical clean vectors; no claim of two distinct clean profiles",
+    "No model retraining, new thresholds, new explanations, new SHAP, outcome inspection or primary PF4 in D32"
+  ],
+  "primary_PF4_approved": false
+}

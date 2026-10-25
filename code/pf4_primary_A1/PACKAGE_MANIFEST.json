@@ -1,0 +1,112 @@
+{
+  "PF5_authorized": false,
+  "RF_authorized": false,
+  "amendment_diagnostic_sha256": "f158b6e905e7e5a8274bba484afadd97788f074276f6ca053e5002264a700af3",
+  "amendment_id": "PF4-A1",
+  "base_source_manifest_sha256": "5b0d93bf99879ab676722450006959592b591e12fb4f08bf7ff3b55bc5823d70",
+  "boundary_tie_policy": "BOUNDARY_TIE_NA",
+  "case_ids": [
+    "CIC34/HGB/11",
+    "CIC34/HGB/23",
+    "CIC34/HGB/37",
+    "CIC34/HGB/53",
+    "CIC34/HGB/71",
+    "CIC34/LIN_SGD_LOGISTIC/11",
+    "CIC34/LIN_SGD_LOGISTIC/23",
+    "CIC34/LIN_SGD_LOGISTIC/37",
+    "CIC34/LIN_SGD_LOGISTIC/53",
+    "CIC34/LIN_SGD_LOGISTIC/71",
+    "CIC34/MLP/11",
+    "CIC34/MLP/23",
+    "CIC34/MLP/37",
+    "CIC34/MLP/53",
+    "CIC34/MLP/71",
+    "TON10/HGB/11",
+    "TON10/HGB/23",
+    "TON10/HGB/37",
+    "TON10/HGB/53",
+    "TON10/HGB/71",
+    "TON10/LIN_SGD_LOGISTIC/11",
+    "TON10/LIN_SGD_LOGISTIC/23",
+    "TON10/LIN_SGD_LOGISTIC/37",
+    "TON10/LIN_SGD_LOGISTIC/53",
+    "TON10/LIN_SGD_LOGISTIC/71",
+    "TON10/MLP/11",
+    "TON10/MLP/23",
+    "TON10/MLP/37",
+    "TON10/MLP/53",
+    "TON10/MLP/71",
+    "TON2/HGB/11",
+    "TON2/HGB/23",
+    "TON2/HGB/37",
+    "TON2/HGB/53",
+    "TON2/HGB/71",
+    "TON2/LIN_SGD_LOGISTIC/11",
+    "TON2/LIN_SGD_LOGISTIC/23",
+    "TON2/LIN_SGD_LOGISTIC/37",
+    "TON2/LIN_SGD_LOGISTIC/53",
+    "TON2/LIN_SGD_LOGISTIC/71",
+    "TON2/MLP/11",
+    "TON2/MLP/23",
+    "TON2/MLP/37",
+    "TON2/MLP/53",
+    "TON2/MLP/71"
+  ],
+  "files": {
+    "PF4_A1_AMENDMENT.json": {
+      "bytes": 605,
+      "sha256": "d042bf5e6f0e1df1b0d68fc7ee6fabd3a5eada84fe33bb14ab2089f41ecc9138"
+    },
+    "PRIMARY_AUTHORIZATION.json": {
+      "bytes": 572,
+      "sha256": "47260be2096e13a91ec2f92aef0b250a068e7c5aff8a3d9824cb2c6483e53472"
+    },
+    "README.md": {
+      "bytes": 3839,
+      "sha256": "00b7498dcfeb6058fefcb88fc29fe078fbff8ed2970ab9a6204098c5077767b0"
+    },
+    "reference/C6_exploratory_source_READ_ONLY.py": {
+      "bytes": 25061,
+      "sha256": "c9a282a2566677053fe2da3fe01f530c8f677379ee58fecaac0989e9768b4bd5"
+    },
+    "reference/D24_45_case_manifest.csv": {
+      "bytes": 15446,
+      "sha256": "8a86a9b4b56ad4f45abe72843890823bc3e2b381727a3863251d6ed6ad5bb72a"
+    },
+    "reference/D24_report.json": {
+      "bytes": 3894,
+      "sha256": "82c50577baf1a21f453c18c79fc53719aaf7061ae5064e59a2adc58e918d5a2d"
+    },
+    "reference/PF4_A1_BOUNDARY_TIE_DIAGNOSTIC.json": {
+      "bytes": 4591,
+      "sha256": "f158b6e905e7e5a8274bba484afadd97788f074276f6ca053e5002264a700af3"
+    },
+    "reference/contract_D32.json": {
+      "bytes": 4505,
+      "sha256": "27470b04c90c024d56351e3196affe14966dae867cba0fe3fd25fd39257f3b40"
+    },
+    "run_primary.py": {
+      "bytes": 7845,
+      "sha256": "14969ed7d352568a5cb07a5906c533c8accdcd9fe0146044c7197ccb3ca5596d"
+    },
+    "scripts/offline_checkpoint_test.py": {
+      "bytes": 2527,
+      "sha256": "46b42ce3d6c51f8b8a1d96f7f72a5110a83539f64b814943815579d264dfaa72"
+    },
+    "scripts/offline_metric_negative_test.py": {
+      "bytes": 2414,
+      "sha256": "ae4f5e05eb63909c9d5d40976b66720c121887886649515f322927197387ea21"
+    },
+    "scripts/primary_case.py": {
+      "bytes": 31620,
+      "sha256": "f6df64805e4c55213c15c6f7ca117a1395260effbd5edee32d53c0959392b8c5"
+    }
+  },
+  "first_tranche_max_new_ordinals": 8,
+  "full_xai_total_ordinals": 81000,
+  "gate": "R7-D35-PF4-PRIMARY-P1",
+  "initial_case": "TON2/LIN_SGD_LOGISTIC/11",
+  "primary_PF4_authorized_by_user": true,
+  "source_manifest_sha256": "df921d8eeea4e6fb4e088291cf34a76a4c4ae1b2b2d9dcfd5920fee1b1e0a550",
+  "source_variant": "PF4-A1"
+}

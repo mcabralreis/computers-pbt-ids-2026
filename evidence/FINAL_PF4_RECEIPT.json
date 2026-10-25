@@ -1,0 +1,16 @@
+{
+  "A1_source_manifest_sha256": "df921d8eeea4e6fb4e088291cf34a76a4c4ae1b2b2d9dcfd5920fee1b1e0a550",
+  "CIC34_complete": 51000,
+  "HGB_complete": 17000,
+  "LIN_complete": 17000,
+  "MLP_complete": 17000,
+  "PF5_authorized": false,
+  "RF_authorized": false,
+  "TON_complete": 30000,
+  "final_sealed": 81000,
+  "gate": "R7-D35-PF4-PRIMARY-P1-A1-G3-R3-FINAL",
+  "initial_sealed": 57000,
+  "new_sealed": 24000,
+  "previous_R2_sha256": "424031c82234e3f1ccaad4ee57c8d5e42a7733f7744d279fdb23791090ee9467",
+  "status": "PASS"
+}

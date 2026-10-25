@@ -1,0 +1,12 @@
+{
+  "PF5_authorized": false,
+  "RF_authorized": false,
+  "amendment_id": "PF4-A1",
+  "authorization": "USER_EXPLICIT_2026-10-11",
+  "base_source_manifest_sha256": "5b0d93bf99879ab676722450006959592b591e12fb4f08bf7ff3b55bc5823d70",
+  "case_context_policy": "PRESERVE_BASE_SOURCE_MANIFEST_SHA256",
+  "diagnostic_sha256": "f158b6e905e7e5a8274bba484afadd97788f074276f6ca053e5002264a700af3",
+  "existing_checkpoints_policy": "PRESERVE_BYTE_EXACT",
+  "policy": "BOUNDARY_TIE_NA",
+  "scope": "Top-k metrics requiring a unique boundary selection only; no arbitrary tie-break; unaffected metrics remain defined"
+}

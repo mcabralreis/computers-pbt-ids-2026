@@ -1,0 +1,14 @@
+{
+  "ablation_records": 162000,
+  "additivity_records": 216000,
+  "clean_top10_ties": 304,
+  "clean_top5_ties": 137,
+  "evidence_sha256": "3878071e423383dfaa8c1d4a7ebf558681618137f6badfd8edbc913110accebe",
+  "final_sealed_ordinals": 81000,
+  "jaccard10_defined": 242086,
+  "jaccard5_defined": 242588,
+  "perturbation_records": 243000,
+  "prediction_changed": 8944,
+  "prediction_stable": 234056,
+  "unique_profile_max_abs_metric_delta": 0.0031122276029055262
+}

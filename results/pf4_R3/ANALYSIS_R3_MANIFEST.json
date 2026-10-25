@@ -1,0 +1,76 @@
+{
+  "PF5_authorized": false,
+  "RF_authorized": false,
+  "analysis_id": "PF4-A1-ANALYSIS-R3",
+  "files": {
+    "Fig_R3_1_prediction_vs_explanation.png": {
+      "bytes": 97938,
+      "sha256": "4d55cf54a7e9f4de5805a8c807355d8ac045285885e57ba9ece280c83b1fa071"
+    },
+    "Fig_R3_2_jaccard5_seed_uncertainty.png": {
+      "bytes": 65617,
+      "sha256": "daef38b4e72c04c72064efa44b8000a43df9205a5b3955764b5358c7c48ee2ed"
+    },
+    "Fig_R3_3_ablation_topk_prediction_change.png": {
+      "bytes": 147032,
+      "sha256": "45f1d60d91f4ca977ca498f456ae04b16bd0e5c3b7ce3079c73d8beeae51b159"
+    },
+    "Fig_R3_4_duplicate_weighting_sensitivity.png": {
+      "bytes": 102576,
+      "sha256": "804a675ac9d0507a22929209ce0ce631d115ae34d7f3e3798a411eb36c415410"
+    },
+    "R3_A_main_metrics_mean_sd.csv": {
+      "bytes": 1989,
+      "sha256": "355e922802e31cc7c452f23abfd9def5fcecf1704620f8074c4c1d7e8c4aea90"
+    },
+    "R3_B_seed_paired_model_contrasts.csv": {
+      "bytes": 5750,
+      "sha256": "72d0589cb954f763a24a98bb4738f81e7990662bc8358167e4ce73ecf287dc45"
+    },
+    "R3_C_predicted_class_heterogeneity_intensity_0p10.csv": {
+      "bytes": 1145,
+      "sha256": "d791d013fb6289584a1534d1e6031ae5ef72412ea1cc0763329c9c4b6cbd1abf"
+    },
+    "R3_DECISION_MEMO.txt": {
+      "bytes": 1228,
+      "sha256": "d835a583ca43e0f23ccd89506bf3a125f133f47a4df8f584221ece5e81ffbb2a"
+    },
+    "R3_D_feature_sensitivity_intensity_0p10.csv": {
+      "bytes": 1451,
+      "sha256": "fd0f195840bdf236f9da1d3de83827e85a304b82e799c52454b44ef50608a846"
+    },
+    "R3_E_ablation_prediction_change.csv": {
+      "bytes": 1150,
+      "sha256": "da62dc3d5ce91a43256d936e08bc238958f9ee11ca14ab81e65c6322156430b4"
+    },
+    "R3_F_duplicate_weighting_sensitivity.csv": {
+      "bytes": 3378,
+      "sha256": "0af9b6dae3120ce5f4476d80a3a3f2636912fbf58ba7ac1039a75a262a0382be"
+    },
+    "R3_G_intensity_effects_seed_paired.csv": {
+      "bytes": 6373,
+      "sha256": "7ef6fc05377ebebaef59d792f3035837663a357a646a3c7a6ee06dbe917b44b1"
+    },
+    "R3_H_boundary_ties.csv": {
+      "bytes": 497,
+      "sha256": "7a78718d9c4904f5150f1a06f04af2339c01fbd83c499a162d27d46989a50862"
+    },
+    "R3_I_additivity_support.csv": {
+      "bytes": 4461,
+      "sha256": "b6f853d06be66b5236bf439df8d070fbda6184c592dacd96ff05f0c1b12e5411"
+    },
+    "R3_J_claim_matrix.csv": {
+      "bytes": 2177,
+      "sha256": "f0b011852c0380cbc6b77c79b42f7fe13fa700284ebdd342a3facabf0b9f3fd4"
+    },
+    "R3_RESULTS_MANUSCRIPT_DRAFT.md": {
+      "bytes": 4666,
+      "sha256": "735023a6e4369a96e84650093868abcfb505cd7f3ed85789a59b5251c602720c"
+    }
+  },
+  "mode": "READ_ONLY_MANUSCRIPT_GRADE_SYNTHESIS",
+  "n_seeds_per_cell": 5,
+  "primary_inference_unit": "seed",
+  "source_R1_sha256": "fdab488ba4e7819bf92eac1c8709b61fe6ec259f3aa9dc119b09f721fff7a97d",
+  "source_R2_package_sha256": "a6309b038ba1c6f1f96b821152e07259e92fa80baa5ab496dd65efc7a976098f"
+}

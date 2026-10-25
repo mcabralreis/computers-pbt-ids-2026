@@ -1,0 +1,3 @@
+# Requirements for analysis/reproduce_pf4_results.py
+numpy>=2.2,<3
+pandas>=2.2,<3

@@ -1,0 +1,85 @@
+{
+  "cohorts": {
+    "CIC34": {
+      "background_hash_status": "PRIOR_PINNED",
+      "background_rows": 256,
+      "background_sha256": "dbba14b374fb06d2b5e7026de5bf0864731caad6ca15d41d084e60d2f7cc5989",
+      "dataset": "CICIoT2023",
+      "encoded_features": 46,
+      "output_dim": 34,
+      "test_rows": 571595,
+      "x_test_sha256": "c0a2e51db7832a4032b28e51a676ffa8ff9cf10045105028aa8b34b55492e9cc",
+      "xai_index_sha256": "43b885d570bbdbf30db5062e773839697c64645705ae7e8df7c349636524c2c6",
+      "xai_rows": 3400
+    },
+    "TON10": {
+      "background_hash_status": "OBSERVED_NOT_PRIOR_PINN",
+      "background_rows": 256,
+      "background_sha256": "0aa9798fd18911656dcf17e130a9ce732d1e94225c8dd4c488142c62e0e85252",
+      "dataset": "TON_IoT_NETWORK",
+      "encoded_features": 153,
+      "output_dim": 10,
+      "test_rows": 210452,
+      "x_test_sha256": "dada592a11419779380e27b64bc0bfe563524323c58d511d3d1f9bca7359925b",
+      "xai_index_sha256": "1117f88d12a52a021e609f34f80622e1229f9148fb2e644b27157a8ad3cdff63",
+      "xai_rows": 1000
+    },
+    "TON2": {
+      "background_hash_status": "OBSERVED_NOT_PRIOR_PINN",
+      "background_rows": 256,
+      "background_sha256": "0aa9798fd18911656dcf17e130a9ce732d1e94225c8dd4c488142c62e0e85252",
+      "dataset": "TON_IoT_NETWORK",
+      "dataset_shared_with": "TON10",
+      "encoded_features": 153,
+      "output_dim": 1,
+      "test_rows": 210452,
+      "x_test_sha256": "dada592a11419779380e27b64bc0bfe563524323c58d511d3d1f9bca7359925b",
+      "xai_index_sha256": "1117f88d12a52a021e609f34f80622e1229f9148fb2e644b27157a8ad3cdff63",
+      "xai_rows": 1000
+    }
+  },
+  "gate": "R7-D24",
+  "input_hashes": {
+    "C3C_P3E_manifest.json": "2c871e16fcecd946213565c65e2d519b632d408b54d3feffba5e732f20b6c959",
+    "C4E_final_model_registry.csv": "8422cf76697c2fc159547999a72ba1a3a074bbb402f836b3a9b9933362694b23",
+    "C5B_R5_executable_property_specification.json": "ac05e4bd21d4ab32dd715d24054729232232300c963bc729bd00585d8bb73339",
+    "C5G_R2_P0_R1_native_score_adapter_registry.csv": "bb31f985fd4483e301703169e25fe66268f10d5c0958ed533428497e4f6cafc0",
+    "C5K_P1_R6_PF4_exact_execution_binding.json": "00280b36c6e979f75bbe61ca64e73efa30c0b417041d65cf39423ed6256c5a1a",
+    "D23_report.json": "6333a4497d99d89bc53e9cd52d9dac89bc12a99c4b4aa692148155f26b473b58"
+  },
+  "mode": "READ_ONLY_UPSTREAM_AND_MODEL_BYTES_NO_MODEL_LOAD_NO_SHAP_NO_PREDICTION_NO_PERTURBATION",
+  "planning": {
+    "checkpoint_policy": "separate sealed immutable per-task/family/seed/ordinal with verify-before-resume, atomic commit and refusal of tamper/contract conflict",
+    "families_each_task": [
+      "LIN_SGD_LOGISTIC",
+      "HGB",
+      "MLP"
+    ],
+    "not_applicable_policy": "record and preserve; never substitute",
+    "scientific_gaps_before_primary_execution": [
+      "revalidate TON10 and TON2 family-specific native SHAP tensor shapes and scalar binary output in real small pilots",
+      "exercise all three families on TON task-specific PF1 candidate pairs",
+      "integrate full source-feature aggregation and top-k ablation through frozen preprocessing baseline path",
+      "pilot D24-independent real multi-seed runner and audit its output",
+      "RF remains excluded pending separate native SHAP resolution"
+    ],
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "task_case_counts": {
+      "CIC34": 15,
+      "TON10": 15,
+      "TON2": 15
+    },
+    "timing_policy": "D19-D22 measurements are CIC34 seed11 pilots only; do not extrapolate to remaining cases",
+    "total_cases": 45,
+    "total_clean_blocks_if_full_cohort": 81000,
+    "upper_bound_explanations_if_all_three_perturbations_applicable": 324000
+  },
+  "source_d23_status": "PASS_INDEPENDENT_INTEGRATED_PILOT_AUDIT_NOT_PRIMARY_PF4_APPROVAL",
+  "status": "PASS_STATIC_45_CASE_COVERAGE_AND_MODEL_HASH_PREFLIGHT_NOT_PRIMARY_PF4_APPROVAL"
+}

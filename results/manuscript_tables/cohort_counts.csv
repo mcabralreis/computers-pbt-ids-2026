@@ -1,0 +1,3 @@
+dataset,raw_rows,valid_rows,raw_train,raw_validation,raw_test,mat_train,mat_validation,mat_test,property,xai,encoded_features
+CICIoT2023,46776700,46776697,32694322,7010183,7072192,2336080,571478,571595,31165,3400,46
+TON_IoT_NETWORK,15339021,15339021,10739572,2294643,2304806,852406,210999,210452,9164,1000,153

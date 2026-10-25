@@ -1,0 +1,13 @@
+PF4-A1 ANALYSIS R3 — DECISION MEMO
+
+Status: manuscript-grade read-only synthesis completed from the sealed PF4 campaign. PF5=NO; RF=NO.
+
+Main scientific conclusion: prediction robustness and explanation robustness are distinct. LIN has the most consistently stable explanations; MLP has highly stable predictions but weaker explanation stability; HGB often retains stable explanations while being more prediction-sensitive.
+
+Inference: seed is the unit (n=5 paired seeds/cell). 44/45 paired family-by-metric contrasts have the same direction in all five seeds. Because the minimum two-sided exact sign-flip p-value is 0.0625, do not build the paper around p<0.05. Report magnitudes, between-seed SD and directional consistency.
+
+Duplicate-profile sensitivity: largest absolute principal-metric change after unique-profile weighting = 0.003112.
+
+Ablation: use prediction-change rate for cross-family comparison; do not compare raw score-drop magnitude across model families; do not call masking causal importance.
+
+Additional PF4 computation: none is currently justified. The next step should be manuscript integration. New computation should be triggered only by a specific unresolved scientific question or reviewer request.

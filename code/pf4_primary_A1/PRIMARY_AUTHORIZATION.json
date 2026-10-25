@@ -1,0 +1,12 @@
+{
+  "gate": "R7-D35-PF4-PRIMARY-P1",
+  "user_authorization_date": "2026-10-02",
+  "primary_PF4_authorized_by_user": true,
+  "authorization_basis": "User explicitly confirmed 'sim, avança, sff' after being asked to authorize preparation and start of the 45-case primary PF4 campaign.",
+  "scope": "45 D24 cases, CIC34/TON10/TON2 x LIN_SGD_LOGISTIC/HGB/MLP x seeds 11,23,37,53,71",
+  "canonical_full_xai_order": true,
+  "PF5_authorized": false,
+  "RF_authorized": false,
+  "changes_to_D32_historical_contract": false,
+  "changes_to_upstream_frozen_data_or_models": false
+}
